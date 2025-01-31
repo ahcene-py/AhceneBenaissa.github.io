@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "BENAISSA Ahcene"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Engineer in Embedded Electronics with experience in machine learning, PCB design, FPGA systems, and microelectronics. Passionate about AI-driven energy optimization, real-time detection systems, and hardware-software co-design.Skilled in Python, C,C++, and hardware development."
+  location         : "Nancy, France"
+  employer         : "Lorraine University/FST"
   uri              : # URL
   email            : "none@example.org" 
 
@@ -58,7 +58,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : # "www.linkedin.com/in/ahcene-benaissa"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
