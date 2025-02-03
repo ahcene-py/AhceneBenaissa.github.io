@@ -8,7 +8,7 @@ title                    : "BENAISSA Ahcene / Home page"  # Titre du site affich
 title_separator          : "-"      # Séparateur utilisé entre le titre et le sous-titre
 name                     : &name "Your Name"  # Nom par défaut (alias pouvant être réutilisé)
 description              : &description "Engineer in Embedded Electronic Systems and Artificial Intelligence, passionate about technological innovation and the design of intelligent solutions to tackle modern challenges"  # Brève description du site
-url                      : https://ahcene-py.github.io/AhceneBenaissa.github.io  # URL de base (hostname & protocole)
+url                      : https://ahcene-py.github.io/AhceneBenaissa.github.io # URL de base (hostname & protocole)
 baseurl                  : ""       # Sous-chemin de votre site, par exemple "/blog"
 repository               : "ahcene-py/AhceneBenaissa.github.io"  # Répertoire GitHub associé
 
