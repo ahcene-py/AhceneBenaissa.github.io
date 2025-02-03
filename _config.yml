@@ -1,1 +1,353 @@
+# ================================
+# Configuration de base du site Jekyll
+# ================================
+
+# Paramètres de base du site
+locale                   : "en-US"   # Langue du site
+title                    : "BENAISSA Ahcene / Home page"  # Titre du site affiché dans le navigateur
+title_separator          : "-"      # Séparateur utilisé entre le titre et le sous-titre
+name                     : &name "Your Name"  # Nom par défaut (alias pouvant être réutilisé)
+description              : &description "personal description"  # Brève description du site
+url                      : https://academicpages.github.io  # URL de base (hostname & protocole)
+baseurl                  : ""       # Sous-chemin de votre site, par exemple "/blog"
+repository               : "academicpages/academicpages.github.io"  # Répertoire GitHub associé
+
+# ================================
+# Informations sur l'auteur
+# ================================
+author:
+  # Informations biographiques
+  avatar           : "profile.png"  # Image de profil de l'auteur (placée dans le dossier approprié)
+  name             : "BENAISSA Ahcene"  # Nom complet de l'auteur
+  pronouns         : # Par exemple "she/her" si nécessaire
+  bio              : "Engineer in Embedded Electronics with experience in machine learning, PCB design, FPGA systems, and microelectronics. Passionate about AI-driven energy optimization, real-time detection systems, and hardware-software co-design.Skilled in Python, C,C++, and hardware development."  # Biographie courte de l'auteur
+  location         : "Nancy, France"  # Localisation géographique
+  employer         : "Lorraine University/FST"  # Employeur ou institution
+  uri              : # URL personnelle ou de l'institution (laisser vide si non applicable)
+  email            : "none@example.org"  # Adresse email de contact
+
+  # Liens vers des profils académiques et de recherche
+  arxiv            : # URL vers le profil arXiv (laisser vide si non applicable)
+  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"  # Profil Google Scholar
+  impactstory      : # URL pour ImpactStory (laisser vide si non applicable)
+  orcid            : "http://orcid.org/yourorcidurl"  # Lien vers le profil ORCID
+  semantic         : # URL pour Semantic Scholar (laisser vide si non applicable)
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"  # Lien PubMed
+  researchgate     : # URL pour ResearchGate (laisser vide si non applicable)
+  scopus           : # URL pour Scopus (laisser vide si non applicable)
+
+  # Liens vers des dépôts et outils de développement
+  bitbucket        : # Nom d'utilisateur Bitbucket (laisser vide si non applicable)
+  codepen          : # Nom d'utilisateur CodePen (laisser vide si non applicable)
+  dribbble         : # Nom d'utilisateur Dribbble (laisser vide si non applicable)
+  github           : "academicpages"  # Nom d'utilisateur GitHub
+  kaggle           : # Nom d'utilisateur Kaggle (laisser vide si non applicable)
+  stackoverflow    : # Numéro d'utilisateur StackOverflow (laisser vide si non applicable)
+
+  # Liens vers des réseaux sociaux
+  bluesky          : "bsky.app"  # Nom d'utilisateur Bluesky
+  facebook         : # Nom d'utilisateur Facebook (laisser vide si non applicable)
+  flickr           : # Nom d'utilisateur Flickr (laisser vide si non applicable)
+  foursquare       : # Nom d'utilisateur Foursquare (laisser vide si non applicable)
+  goodreads        : # Nom d'utilisateur Goodreads (laisser vide si non applicable)
+  google_plus      : # Nom d'utilisateur Google+ (laisser vide si non applicable)
+  keybase          : # Nom d'utilisateur Keybase (laisser vide si non applicable)
+  instagram        : # Nom d'utilisateur Instagram (laisser vide si non applicable)
+  lastfm           : # Nom d'utilisateur LastFM (laisser vide si non applicable)
+  linkedin         : # "www.linkedin.com/in/ahcene-benaissa" (laisser vide ou modifier selon besoin)
+  mastodon         : # URL du profil Mastodon (laisser vide si non applicable)
+  medium           : # URL du profil Medium (laisser vide si non applicable)
+  pinterest        : # Nom d'utilisateur Pinterest (laisser vide si non applicable)
+  soundcloud       : # Nom d'utilisateur SoundCloud (laisser vide si non applicable)
+  steam            : # Nom d'utilisateur Steam (laisser vide si non applicable)
+  telegram         : # URL Telegram (laisser vide si non applicable)
+  tumblr           : # Nom d'utilisateur Tumblr (laisser vide si non applicable)
+  twitter          : # Nom d'utilisateur pour Twitter (ou X, laisser vide si non applicable)
+  vine             : # Nom d'utilisateur Vine (laisser vide si non applicable)
+  weibo            : # Nom d'utilisateur Weibo (laisser vide si non applicable)
+  wikipedia        : # Nom d'utilisateur Wikipedia (laisser vide si non applicable)
+  xing             : # Nom d'utilisateur Xing (laisser vide si non applicable)
+  youtube          : # Nom d'utilisateur YouTube (laisser vide si non applicable)
+  zhihu            : # Nom d'utilisateur Zhihu (laisser vide si non applicable)
+
+# ================================
+# Catégories de publication
+# ================================
+publication_category:
+  books:
+    title: 'Books'         # Catégorie pour les livres
+  manuscripts:
+    title: 'Journal Articles'  # Catégorie pour les articles de journaux
+  conferences:
+    title: 'Conference Papers'  # Catégorie pour les communications en conférences
+
+# ================================
+# Paramètres généraux du site
+# ================================
+teaser                   :  # Nom du fichier d'image teaser par défaut (placé dans /images/)
+breadcrumbs              : false   # Activation des "breadcrumbs" (fil d’Ariane) ; true ou false
+words_per_minute         : 160     # Estimation de la vitesse de lecture en mots par minute
+future                   : true    # Afficher ou non les posts futurs (dépubliés si false)
+read_more                : "disabled"  # Option pour ajouter un lien "Read more" dans les extraits
+talkmap_link             : false   # Lien vers talkmap sur la page des conférences, false pour le désactiver
+
+# ================================
+# Configuration des commentaires
+# ================================
+comments:
+  provider               : # Choisir le fournisseur de commentaires ("disqus", "discourse", etc.)
+  disqus:
+    shortname            :  # Nom court de Disqus (si utilisé)
+  discourse:
+    server               : # URL du serveur Discourse (exemple : meta.discourse.org)
+  facebook:
+    appid                :  # Identifiant de l'application Facebook pour les commentaires
+    num_posts            :  # Nombre de commentaires à afficher (par défaut 5)
+    colorscheme          :  # Thème de couleur ("light" ou "dark")
+
+staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']  # Champs autorisés dans le formulaire de commentaires
+  branch                 : "gh-pages"  # Branche GitHub utilisée pour enregistrer les commentaires
+  commitMessage          : "New comment."  # Message de commit pour les nouveaux commentaires
+  filename               : comment-{@timestamp}  # Nom de fichier pour les commentaires, basé sur le timestamp
+  format                 : "yml"   # Format des commentaires (YAML)
+  moderation             : true    # Activation de la modération des commentaires
+  path                   : "_data/comments/{options.slug}"  # Chemin où les commentaires seront sauvegardés
+  requiredFields         : ['name', 'email', 'message']  # Champs requis pour poster un commentaire
+  transforms:
+    email                : "md5"   # Transformation de l'email (hashage md5)
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601"  # Format de la date (ISO8601)
+
+# ================================
+# Flux Atom/RSS
+# ================================
+atom_feed:
+  hide                   : false     # Si true, cache le flux RSS dans le pied de page
+  path                   :  # Chemin du flux (par défaut feed.xml si laissé vide)
+
+# ================================
+# Référencement (SEO)
+# ================================
+google_site_verification :  # Clé de vérification pour Google Search Console
+bing_site_verification   :  # Clé de vérification pour Bing Webmaster Tools
+alexa_site_verification  :  # Clé de vérification pour Alexa
+yandex_site_verification :  # Clé de vérification pour Yandex
+
+# ================================
+# Partage sur les réseaux sociaux
+# ================================
+twitter:
+  username               : &twitter  # Nom d'utilisateur Twitter (alias réutilisable)
+facebook:
+  username               :  # Nom d'utilisateur Facebook
+  app_id                 :  # Identifiant de l'application Facebook
+  publisher              :  # Identifiant du publicateur Facebook
+og_image                 :  # Image par défaut pour Open Graph (utilisée sur Twitter et Facebook)
+social:
+  type                   :  # Type d'entité ("Person" ou "Organization")
+  name                   :  # Nom alternatif si différent du nom du site
+  links: # Liste des liens vers les profils sociaux (à remplir selon besoin)
+
+# ================================
+# Outils d'analyse
+# ================================
+analytics:
+  provider               :  "false"  # Fournisseur d'analyse ("google", "google-universal", etc.), "false" pour désactiver
+  google:
+    tracking_id          :  # Identifiant de suivi pour Google Analytics
+
+# ================================
+# Inclusion et exclusion des fichiers
+# ================================
+include:
+  - .htaccess   # Fichiers ou dossiers à inclure lors du build
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"  # Fichiers à exclure du build
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - CHANGELOG
+  - Capfile
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - local
+  - log
+  - node_modules
+  - package.json*
+  - Rakefile
+  - README
+  - tmp
+  - vendor
+keep_files:
+  - .git   # Fichiers/dossiers à toujours conserver (ex : répertoire .git)
+  - .svn
+encoding: "utf-8"  # Encodage utilisé
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"  # Extensions de fichiers à traiter comme Markdown
+
+# ================================
+# Conversion du contenu
+# ================================
+markdown: kramdown     # Moteur de conversion Markdown
+highlighter: rouge     # Coloriseur syntaxique (Rouge)
+lsi: false             # Désactive l'analyse sémantique latente
+excerpt_separator: "\n\n"  # Séparateur pour les extraits
+incremental: false     # Désactive le build incrémental
+
+# ================================
+# Paramétrage des collections de contenus
+# ================================
+collections:
+  teaching:
+    output: true       # Génère une page pour chaque élément de la collection
+    permalink: /:collection/:path/  # Structure des URLs
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+
+# ================================
+# Paramètres par défaut pour les pages et collections
+# ================================
+defaults:
+  # Pour les articles dans _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single         # Utilise le layout "single" pour l'affichage
+      author_profile: true   # Affiche le profil de l'auteur
+      read_time: true        # Affiche le temps de lecture estimé
+      comments: true         # Active les commentaires
+      share: true            # Boutons de partage activés
+      related: true          # Affiche des contenus connexes
+  # Pour les pages dans _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # Pour la collection "teaching"
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # Pour la collection "publications"
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # Pour la collection "portfolio"
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # Pour la collection "talks"
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk           # Layout spécifique pour les conférences
+      author_profile: true
+      share: true
+
+# ================================
+# Configuration Sass/SCSS
+# ================================
+sass:
+  sass_dir: _sass         # Dossier contenant les fichiers Sass
+  style: compressed       # Compression du CSS généré
+
+# ================================
+# Paramétrage des URLs et de la pagination
+# ================================
+permalink: /:categories/:title/  # Structure des permaliens pour les pages
+# paginate: 5                # Nombre d'articles par page (désactivé ici)
+# paginate_path: /page:num/   # Chemin pour la pagination
+timezone: Etc/UTC           # Fuseau horaire du site
+
+# ================================
+# Plugins utilisés par le site
+# ================================
+plugins:
+  - jekyll-feed           # Génère un flux RSS
+  - jekyll-gist           # Permet d'intégrer des gists GitHub
+  - jekyll-paginate       # Gère la pagination des posts
+  - jekyll-sitemap        # Génère un sitemap XML
+  - jekyll-redirect-from  # Gère les redirections
+  - jemoji                # Permet d'utiliser des emojis dans le site
+
+# Mode "safe" pour GitHub Pages (autorise uniquement certains plugins)
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+# ================================
+# Configuration des archives (catégories et tags)
+# ================================
+# Archives par catégorie
+category_archive:
+  type: liquid            # Méthode Liquid pour générer les pages d'archive
+  path: /categories/      # Chemin de l'archive des catégories
+# Archives par tag
+tag_archive:
+  type: liquid            # Méthode Liquid pour les tags
+  path: /tags/            # Chemin de l'archive des tags
+
+# Exemple d'utilisation avec le plugin jekyll-archives (désactivé ici)
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+# ================================
+# Configuration de la compression HTML
+# ================================
+# Utilise un outil externe pour compresser le HTML généré
+compress_html:
+  clippings: all         # Appliquer la compression à tous les éléments
+  ignore:                # Liste des éléments ou fichiers à ignorer lors de la compression
 
