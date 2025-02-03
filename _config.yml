@@ -3,28 +3,28 @@
 # ================================
 
 # Paramètres de base du site
-locale                   : "en-US"   # Langue du site
+locale                   : "fr-FR"   # Langue du site
 title                    : "BENAISSA Ahcene / Home page"  # Titre du site affiché dans le navigateur
 title_separator          : "-"      # Séparateur utilisé entre le titre et le sous-titre
 name                     : &name "Your Name"  # Nom par défaut (alias pouvant être réutilisé)
-description              : &description "personal description"  # Brève description du site
-url                      : https://academicpages.github.io  # URL de base (hostname & protocole)
+description              : &description "Engineer in Embedded Electronic Systems and Artificial Intelligence, passionate about technological innovation and the design of intelligent solutions to tackle modern challenges"  # Brève description du site
+url                      : https://ahcene-py.github.io/AhceneBenaissa.github.io  # URL de base (hostname & protocole)
 baseurl                  : ""       # Sous-chemin de votre site, par exemple "/blog"
-repository               : "academicpages/academicpages.github.io"  # Répertoire GitHub associé
+repository               : "ahcene-py/AhceneBenaissa.github.io"  # Répertoire GitHub associé
 
 # ================================
 # Informations sur l'auteur
 # ================================
 author:
   # Informations biographiques
-  avatar           : "profile.png"  # Image de profil de l'auteur (placée dans le dossier approprié)
-  name             : "BENAISSA Ahcene"  # Nom complet de l'auteur
-  pronouns         : # Par exemple "she/her" si nécessaire
-  bio              : "Engineer in Embedded Electronics with experience in machine learning, PCB design, FPGA systems, and microelectronics. Passionate about AI-driven energy optimization, real-time detection systems, and hardware-software co-design.Skilled in Python, C,C++, and hardware development."  # Biographie courte de l'auteur
+  avatar           : "assets/P1001077.JPG"  # Image de profil de l'auteur (placée dans le dossier approprié)
+  name             : "BENAISSA AHCENE"  # Nom complet de l'auteur
+  pronouns         : # Par exemple "he/him" si nécessaire
+  bio              : "Engineer in Embedded Electronic Systems/AI."  # Biographie courte de l'auteur
   location         : "Nancy, France"  # Localisation géographique
   employer         : "Lorraine University/FST"  # Employeur ou institution
   uri              : # URL personnelle ou de l'institution (laisser vide si non applicable)
-  email            : "none@example.org"  # Adresse email de contact
+  email            : "ahceneben98@gmail.com"  # Adresse email de contact
 
   # Liens vers des profils académiques et de recherche
   arxiv            : # URL vers le profil arXiv (laisser vide si non applicable)
