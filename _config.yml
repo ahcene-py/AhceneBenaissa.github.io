@@ -1,320 +1,101 @@
 # Basic Site Settings
-locale                   : "fr-FR"
-title                    : "Ahcene Benaissa / Home page"
-title_separator          : "-"
-name                     : &name "Ahcene Benaissa"
-description              : "Ingénieur en électronique embarquée spécialisé en développement embarqué, Machine Learning & IA, et conception de systèmes électroniques."
-url                      : "https://academicpages.github.io" # Remplacez par votre URL si nécessaire
-baseurl                  : "" 
-repository               : "academicpages/academicpages.github.io"
+locale: "fr-FR"
+title: "Ahcene Benaissa - Ingénieur en Electronique Embarquée"
+title_separator: "-"
+name: "Ahcene Benaissa"
+description: "Ingénieur en Electronique Embarquée | Machine Learning | Conception FPGA"
+url: "https://votre-domaine.github.io" # Remplacez par votre URL
+baseurl: ""
 
-# Auteur - Informations personnelles
+# Author Profile
 author:
-  avatar           : "profile.png"
-  name             : "Ahcene Benaissa"
-  pronouns         : 
-  bio              : >
-    Ingénieur en électronique embarquée diplômé d'un Master EEA (2021-2024) à la Faculté des sciences et technologies Nancy.
-    Fort d’expériences en stage et intérim (Institut Jean Lamour, TECHNORAM, SPA CONDOR ELECTRONIQUE, SONATRACH), je recherche un CDI afin de perfectionner mes compétences et contribuer à des projets innovants.
-  location         : "Nancy 54000, France"
-  employer         : "Faculté des sciences et technologies Nancy / Institut/Entreprise(s) concernés"
-  telephone        : "07-52-19-09-66"
-  uri              : 
-  email            : "none@example.org"
-  
-  # Réseaux professionnels et sociaux
-  linkedin         : "https://linkedin.com/in/ahcene-benaissa"
-  github           : "academicpages"
-  # Vous pouvez ajouter d'autres réseaux si besoin.
+  avatar: "profile.png"
+  name: "Ahcene Benaissa"
+  bio: >
+    Ingénieur en systèmes embarqués passionné par l'IA, les PCB et la co-conception matériel/logiciel.
+    Actuellement en recherche de CDI pour des projets innovants en électronique embarquée.
+  location: "Nancy 54000, France"
+  employer: "Faculté des sciences et technologies Nancy"
+  email: "contact@example.com"
+  phone: "+33 7 52 19 09 66"
+  linkedin: "linkedin.com/in/ahcene-benaissa"
+  github: "votreusername" # Remplacer par votre GitHub
 
-# Sections personnalisées pour le CV
+  # Compétences techniques
+  skills:
+    - "Systèmes embarqués (C/C++, Python)"
+    - "Machine Learning & TensorFlow"
+    - "Conception PCB (Altium, KiCad)"
+    - "Protocoles de communication (I2C, SPI, UART)"
+    - "VHDL/Verilog pour FPGA"
+
+  # Langues
+  languages:
+    - "Français: Bilingue"
+    - "Anglais: B2"
+    - "Arabe: Langue maternelle"
+
+  # Centres d'intérêt
+  interests:
+    - "Développement de systèmes IoT"
+    - "Robotique autonome"
+    - "Optimisation énergétique par IA"
+
+# Section Formation
 education:
-  - period: "2021-2024"
-    degree: "Master EEA, M2 - Parcours Electronique Embarquée"
+  - degree: "Master EEA - Electronique Embarquée"
     institution: "Faculté des sciences et technologies Nancy"
-  - period: "2020-2021"
-    degree: "Licence 3 EEA, Option Systèmes Embarqués"
-    institution: "Faculté des sciences et technologies Nancy"
-  - period: "2019"
-    degree: "Licence ST, Option Electronique"
-    institution: "Université Akli Mohand Oulhadj, Algérie"
+    years: "2021-2024"
 
+  - degree: "Licence 3 EEA - Systèmes Embarqués"
+    institution: "Faculté des sciences et technologies Nancy" 
+    years: "2020-2021"
+
+# Section Expérience Professionnelle
 experience:
-  - period: "2024 (6 mois)"
-    title: "Stagiaire"
-    organization: "Institut Jean Lamour, Nancy, France"
-  - period: "2023 (6 mois)"
-    title: "Intérimaire"
-    organization: "TECHNORAM, Grand Est, France"
-  - period: "2019 (6 mois)"
-    title: "Stagiaire"
-    organization: "SPA CONDOR ELECTRONIQUE, B-BOURARIDJ"
-  - period: "2018 (1 mois)"
-    title: "Stagiaire"
-    organization: "SONATRACH, Hassi-Messaud"
-  - period: "2018 (1 mois)"
-    title: "Formation Workshop"
-    organization: "TIZI-OUZOU"
+  - position: "Stagiaire en Recherche"
+    company: "Institut Jean Lamour"
+    location: "Nancy"
+    period: "2024 (6 mois)"
+    details: "Développement d'un système de détection d'arcs électriques par IA"
 
-skills:
-  - "Systèmes d'exploitation"
-  - "Langages de programmation (Python, C, C++)"
-  - "Outils de conception"
-  - "Développement embarqué"
-  - "Instrumentation"
-  - "Machine Learning & IA"
-  - "Protocoles de communication et bus de données"
-  - "Conception RTL"
-  - "Électronique RF/HF et normes réglementaires"
+  - position: "Intérimaire Technicien"
+    company: "TECHNORAM"
+    location: "Grand Est"
+    period: "2023 (6 mois)"
+    details: "Maintenance de systèmes électroniques industriels"
 
-languages:
-  - language: "Français"
-    level: "Bilingue"
-  - language: "Anglais"
-    level: "B1"
-  - language: "Arabe"
-    level: "Bilingue"
-
+# Projets
 projects:
-  - "Détection et localisation de personnes en temps réel"
-  - "Détection d'arcs électriques via IA"
-  - "Conception d'éclairage adaptatif"
-  - "Développement de divers systèmes électroniques et robotiques"
+  - title: "Système de localisation temps réel"
+    description: "Développement matériel/logiciel avec filtrage Kalman"
+    technologies: "C++, Python, STM32"
+    
+  - title: "Éclairage adaptatif intelligent"
+    description: "Contrôle PWM avec capteurs ambiants"
+    technologies: "Arduino, Capteurs IoT"
 
-interests:
-  - "Photographie et voyage"
-  - "Natation"
-  - "Jeux d'échecs"
-  - "Activités bénévoles"
-
-# Objectif professionnel (intégré dans la bio de l'auteur mais vous pouvez également le mettre dans une section dédiée)
-objective: "Recherche d'un CDI en électronique embarquée pour perfectionner mes compétences et contribuer à des projets innovants."
-
-# --- (Le reste du fichier peut rester inchangé ou être adapté selon vos besoins) ---
-
-# Site Settings
-teaser                   :  
-breadcrumbs              : false
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled"
-talkmap_link             : false
-comments:
-  provider               : 
-  disqus:
-    shortname            :
-  discourse:
-    server               : 
-  facebook:
-    appid                :
-    num_posts            : 
-    colorscheme          : 
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601"
-atom_feed:
-  hide                   : false
-  path                   :
-
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
-
-# Social Sharing
-twitter:
-  username               : 
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :
-social:
-  type                   :
-  name                   :
-  links:
-
-# Analytics
-analytics:
-  provider               :  "false"
-  google:
-    tracking_id          :
-
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-  - files
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .github
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - CHANGELOG
-  - Capfile
-  - config
-  - Dockerfile
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - local
-  - log
-  - node_modules
-  - package.json*
-  - Rakefile
-  - README
-  - tmp
-  - vendor
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-# Collections (vous pouvez adapter ces sections selon vos pages de contenu)
+# Paramètres Techniques
+excerpt_separator: "<!--more-->"
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
-    permalink: /:collection/:path/
-  portfolio:
+    permalink: /publications/:title/
+    
+  projects:
     output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+    permalink: /projects/:path/
 
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# Outputting
-permalink: /:categories/:title/
-timezone: Etc/UTC
-
-# Plugins
+# Intégrations
 plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
+  - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
 
-whitelist:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-
-# Archives
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
-# HTML Compression
-compress_html:
-  clippings: all
-  ignore:
+# Paramètres avancés
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+      author_profile: false
