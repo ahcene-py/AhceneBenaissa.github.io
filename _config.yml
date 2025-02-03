@@ -1,101 +1,84 @@
-# Basic Site Settings
-locale: "fr-FR"
-title: "Ahcene Benaissa - Ingénieur en Electronique Embarquée"
-title_separator: "-"
-name: "Ahcene Benaissa"
-description: "Ingénieur en Electronique Embarquée | Machine Learning | Conception FPGA"
-url: "https://votre-domaine.github.io" # Remplacez par votre URL
-baseurl: ""
+# Paramètres de base du site
+locale: en-US  # Langue et région du site (ici, Anglais, États-Unis)
+title: "Mon Site"  # Le titre du site, qui apparaîtra dans l'onglet du navigateur
+description: "Un site web académique ou professionnel"  # Description du site, utile pour le référencement SEO
+url: "https://monsite.github.io"  # L'URL principale du site
+baseurl: ""  # Sous-chemin du site (laisser vide si le site est à la racine)
+repository: "https://github.com/moncompte/mon-site"  # Lien vers le dépôt GitHub du projet
 
-# Author Profile
+# Informations sur l'auteur
 author:
-  avatar: "profile.png"
-  name: "Ahcene Benaissa"
-  bio: >
-    Ingénieur en systèmes embarqués passionné par l'IA, les PCB et la co-conception matériel/logiciel.
-    Actuellement en recherche de CDI pour des projets innovants en électronique embarquée.
-  location: "Nancy 54000, France"
-  employer: "Faculté des sciences et technologies Nancy"
-  email: "contact@example.com"
-  phone: "+33 7 52 19 09 66"
-  linkedin: "linkedin.com/in/ahcene-benaissa"
-  github: "votreusername" # Remplacer par votre GitHub
+  avatar: "/images/avatar.png"  # Chemin vers l'image de l'avatar de l'auteur
+  name: "Jean Dupont"  # Nom de l'auteur
+  bio: "Ingénieur en électronique embarquée"  # Biographie courte de l'auteur
+  location: "Paris, France"  # Localisation de l'auteur
+  employer: "Université XYZ"  # Employeur ou institution de l'auteur
+  email: "jean.dupont@example.com"  # Email de l'auteur (facultatif)
+  google_scholar: "https://scholar.google.com/citations?user=xyz"  # Lien vers le profil Google Scholar
+  orcid: "0000-0002-1234-5678"  # Lien vers le profil ORCID de l'auteur
 
-  # Compétences techniques
-  skills:
-    - "Systèmes embarqués (C/C++, Python)"
-    - "Machine Learning & TensorFlow"
-    - "Conception PCB (Altium, KiCad)"
-    - "Protocoles de communication (I2C, SPI, UART)"
-    - "VHDL/Verilog pour FPGA"
+# Catégories de publications
+publication_category: 
+  - "Livres"
+  - "Conférences"
+  - "Manuscrits"
 
-  # Langues
-  languages:
-    - "Français: Bilingue"
-    - "Anglais: B2"
-    - "Arabe: Langue maternelle"
+# Paramètres du site
+teaser: "/assets/images/teaser.jpg"  # Image utilisée comme teaser pour le site
+breadcrumbs: false  # Activer ou désactiver l'affichage des "breadcrumbs" (fil d'Ariane)
+read_more: "disabled"  # Contrôler l'affichage des liens "Lire la suite" pour les extraits
+comments: true  # Activer les commentaires sur le site
 
-  # Centres d'intérêt
-  interests:
-    - "Développement de systèmes IoT"
-    - "Robotique autonome"
-    - "Optimisation énergétique par IA"
+# Configuration des commentaires via Staticman (alternative à Disqus ou Discourse)
+staticman:
+  username: "nom-utilisateur-staticman"
+  repository: "mon-depot/staticman-comments"  # Dépôt où les commentaires seront enregistrés
+  branch: "master"  # Branche où les commentaires sont publiés
 
-# Section Formation
-education:
-  - degree: "Master EEA - Electronique Embarquée"
-    institution: "Faculté des sciences et technologies Nancy"
-    years: "2021-2024"
+# Configuration de Google Analytics
+analytics:
+  provider: "google"  # Utiliser Google Analytics pour suivre les visiteurs
+  google_analytics_id: "UA-XXXXXX-X"  # ID de suivi Google Analytics
 
-  - degree: "Licence 3 EEA - Systèmes Embarqués"
-    institution: "Faculté des sciences et technologies Nancy" 
-    years: "2020-2021"
+# Paramètres Markdown et conversion
+markdown: kramdown  # Choisir le processeur Markdown utilisé
+highlighter: rouge  # Surligneur de syntaxe pour le code (rouge est le choix par défaut)
+lsi: false  # Désactiver l'indexation sémantique latente (LSI) pour améliorer la vitesse
+excerpt_separator: "\n\n"  # Séparateur pour les extraits de publication (double saut de ligne)
 
-# Section Expérience Professionnelle
-experience:
-  - position: "Stagiaire en Recherche"
-    company: "Institut Jean Lamour"
-    location: "Nancy"
-    period: "2024 (6 mois)"
-    details: "Développement d'un système de détection d'arcs électriques par IA"
-
-  - position: "Intérimaire Technicien"
-    company: "TECHNORAM"
-    location: "Grand Est"
-    period: "2023 (6 mois)"
-    details: "Maintenance de systèmes électroniques industriels"
-
-# Projets
-projects:
-  - title: "Système de localisation temps réel"
-    description: "Développement matériel/logiciel avec filtrage Kalman"
-    technologies: "C++, Python, STM32"
-    
-  - title: "Éclairage adaptatif intelligent"
-    description: "Contrôle PWM avec capteurs ambiants"
-    technologies: "Arduino, Capteurs IoT"
-
-# Paramètres Techniques
-excerpt_separator: "<!--more-->"
+# Collections de contenu
 collections:
+  teaching:
+    output: true  # Sortie des pages de la collection "teaching"
+    permalink: "/teaching/:name/"  # URL pour les pages de la collection "teaching"
   publications:
-    output: true
-    permalink: /publications/:title/
-    
-  projects:
-    output: true
-    permalink: /projects/:path/
+    output: true  # Sortie des pages de la collection "publications"
+    permalink: "/publications/:title/"  # URL pour les pages de la collection "publications"
+  portfolio:
+    output: true  # Sortie des pages de la collection "portfolio"
+    permalink: "/portfolio/:name/"  # URL pour les pages de la collection "portfolio"
+  talks:
+    output: true  # Sortie des pages de la collection "talks"
+    permalink: "/talks/:name/"  # URL pour les pages de la collection "talks"
 
-# Intégrations
+# Paramètres Sass/SCSS
+sass:
+  style: compressed  # Compression des fichiers CSS générés par Sass
+  load_paths:
+    - "_sass"  # Dossier contenant les fichiers Sass
+
+# Plugins Jekyll
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
+  - jekyll-feed  # Plugin pour générer un flux RSS du site
+  - jekyll-sitemap  # Plugin pour générer un sitemap XML
 
-# Paramètres avancés
-defaults:
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "project"
-      author_profile: false
+# Paramètres de sortie
+permalink: "/:categories/:title/"  # Structure des URL des pages et publications
+timezone: "UTC"  # Fuseau horaire pour le site
+
+# Archive de catégories et de tags
+category_archive: true  # Afficher les archives de catégories
+tag_archive: true  # Afficher les archives de tags
+
+# Compression HTML
+compress_html: "clippings: all"  # Activer la compression HTML pour améliorer la vitesse du site
