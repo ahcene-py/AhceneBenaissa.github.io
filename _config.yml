@@ -17,7 +17,7 @@ repository               : "ahcene-py/AhceneBenaissa.github.io"  # Répertoire G
 # ================================
 author:
   # Informations biographiques
-  avatar           : "image.JPG"  # Image de profil de l'auteur (placée dans le dossier approprié)
+  avatar           : "images/image.JPG"  # Image de profil de l'auteur (placée dans le dossier approprié)
   name             : "BENAISSA AHCENE"  # Nom complet de l'auteur
   pronouns         : # Par exemple "he/him" si nécessaire
   bio              : "Engineer in Embedded Electronic Systems/AI."  # Biographie courte de l'auteur
