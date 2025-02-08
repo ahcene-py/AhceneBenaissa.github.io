@@ -13,7 +13,7 @@ baseurl                  : ""       # Sous-chemin de votre site, par exemple "/b
 repository               : "ahcene-py/AhceneBenaissa.github.io"  # Répertoire GitHub associé
 
 # ================================
-# Informations sur l'auteur
+# Informations sur l'auteure
 # ================================
 author:
   # Informations biographiques
